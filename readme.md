@@ -66,3 +66,19 @@ echo export 'PATH=<your executable path>:$PATH' >> ~/.bash_profile
 ```
 
 - Create your tex file to test.
+
+Example .tex file
+
+```
+%\TEX program = pdflatex
+\documentclass{article}
+%[UTF8]{ctexart}
+\title{123123}
+\author{123123}
+\date{\today}
+\begin{document}
+\maketitle
+123123
+\end{document}
+```
+
